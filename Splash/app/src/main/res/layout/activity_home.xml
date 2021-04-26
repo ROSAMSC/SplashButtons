@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.widget.Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design"
+                android:text="Button"
+                android:textAllCaps="false"
+                android:textColor="@drawable/c_text"/>
+
+            <android.widget.Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design2"
+                android:text="Button"
+                android:textAllCaps="false"
+                android:textColor="@drawable/c_text"/>
+
+            <android.widget.Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design3"
+                android:text="Button"
+                android:textAllCaps="false"
+                android:textColor="@drawable/c_text"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.widget.Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textAllCaps="false"
+            android:background="@drawable/design4"
+            android:textColor="@drawable/c_text"/>
+
+        <android.widget.Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textAllCaps="false"
+            android:background="@drawable/design5"
+            android:textColor="@drawable/c_text"/>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
